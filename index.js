@@ -17,7 +17,7 @@ function saveJsonData(pathToFile, data) {
     fs.writeFileSync(path.join(__dirname, pathToFile), JSON.stringify(data, null, "    "));
 }
 
-module.exports = function AutoCharacterSelect(dispatch) {	
+module.exports = function SkipCharacterSelect(dispatch) {	
 
     const delay = 10; // Probably not required but adding a longer delay might be a good idea?
 
