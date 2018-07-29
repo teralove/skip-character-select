@@ -21,7 +21,7 @@ module.exports = function SkipCharacterSelect(dispatch) {
 
     /*
         Let character select screen and client account settings to finish loading. May need to be adjusted for your CPU.
-        No delay will work, but sometimes the "wind sound effect" from the "warping loading screen" will continue to play afterwards.
+        No delay works but sometimes the "wind sound effect" from the "warping loading screen" will continue to play afterwards if you switch servers.
     */
     const delay = 8000; 
 
